@@ -6,32 +6,13 @@ Each exemplar is member of one of the class (bird, fish, mammal).
 
 | Class        | Count         | Exemplars  |
 | ------------ |:-------------:| ----------:|
-| *bird*       | 20            | `chicken`, `crow`, `dove`, `duck`, `flamingo`, `gull`, `hawk`, `kiwi`, `lark`, `ostrich`, `parakeet`, `penguin`, `pheasant`, `rhea`, `skimmer`, `skua`, `sparrow`, `swan`, `vulture`, `wren` |
-| *fish*       | 13            | `bass`, `carp`, `catfish`, `chub`, `dogfish`, `haddock`, `herring`, `pike`, `piranha`, `seahorse`, `sole`, `stingray`, `tuna` |
-| *mammal*     | 40            | `aardvark`, `antelope`, `bear`, `boar`, `buffalo`, `calf`, `cavy`, `cheetah`, `deer`, `dolphin`, `elephant`, `fruitbat`, `giraffe`, `goat`, `gorilla`, `hamster`, `hare`, `leopard`, `lion`, `lynx`, `mink`, `mole`, `mongoose`, `opossum`, `oryx`, `platypus`, `polecat`, `pony`, `porpoise`, `puma`, `pussycat`, `raccoon`, `reindeer`, `seal`, `sealion`, `squirrel`, `vampire`, `vole`, `wallaby`, `wolf` |
+| *bird*       | 20            | ```chicken, crow, dove, duck, flamingo, gull, hawk, kiwi, lark, ostrich, parakeet, penguin, pheasant, rhea, skimmer, skua, sparrow, swan, vulture, wren``` |
+| *fish*       | 13            | ```bass, carp, catfish, chub, dogfish, haddock, herring, pike, piranha, seahorse, sole, stingray, tuna``` |
+| *mammal*     | 40            | ```aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf``` |
 
 ## Features
 
-1. exemplar (str)
-2. hair (bool)
-3. feathers (bool)
-4. eggs (bool)
-5. milk (bool)
-6. airborne (bool)
-7. aquatic (bool)
-8. predator (bool)
-9. toothed (bool)
-10. backbone (bool)
-11. breathes (bool)
-12. venomous (bool)
-13. fins (bool)
-14. tail (bool)
-15. domestic (bool)
-16. catsize (bool)
-17. no legs (bool)
-18. two legs (bool)
-19. four legs (bool)
-20. class (str)
+`exemplar` (str), `hair` (bool), `feathers` (bool), `eggs` (bool), `milk` (bool), `airborne` (bool), `aquatic` (bool), `predator` (bool), `toothed` (bool), `backbone` (bool), `breathes` (bool), `venomous` (bool), `fins` (bool), `tail` (bool), `domestic` (bool), `catsize` (bool), `no legs` (bool), `two legs` (bool), `four legs` (bool), `class` (str)
 
 ## Original data
 https://archive.ics.uci.edu/ml/datasets/zoo
