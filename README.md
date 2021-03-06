@@ -23,7 +23,9 @@ Each exemplar is defined by set of boolean features, category and it's name, ava
 | str          | ```exemplar, category``` |
 
 ## Typicality
-For each exemplar (in given category) typicality rating was obtained. Each exemplar was assessed by up to 242 respondents (136 were women, 106 were men). Typicality ratings calcualted as mean value of given responses are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
+For each exemplar (in given category) typicality rating was obtained. Each exemplar was assessed by up to 242 respondents (136 were women, 106 were men). 
+
+Typicality ratings calcualted as mean value of given responses are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
 
 ## Reference
 Original dataset: https://archive.ics.uci.edu/ml/datasets/zoo
