@@ -25,7 +25,9 @@ Each exemplar is defined by set of boolean features, category and it's name. Exe
 | str          | ```exemplar, category``` |
 
 ## Typicality
-Each exemplar was assessed on scale 1 (least typical) to 5 (most typical) by 242 respondents (136 were women, 106 were men). Mean typicality ratings are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
+Each exemplar was assessed on scale 1 (least typical) to 5 (most typical) by 242 respondents (136 were women, 106 were men).
+
+Mean typicality ratings are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
 
 ## Reference
 Original dataset: https://archive.ics.uci.edu/ml/datasets/zoo
