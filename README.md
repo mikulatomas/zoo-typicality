@@ -1,6 +1,8 @@
 # Zoo typicality dataset
 Modified version of Zoo dataset which contains 73 exemplars (animals) with up to 18 boolean features. Dataset was extended by human typicality ratings for each exemplar in given category.
 
+<img src="https://github.com/mikulatomas/zoo-typicality/raw/main/logo.png" width=500>
+
 This dataset was used in:
 
 > Belohlavek, R., Mikula, T.: Typicality: a formal concept analysis account (2021 - preprint).
