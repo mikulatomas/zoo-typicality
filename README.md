@@ -1,6 +1,10 @@
 # Zoo typicality dataset
 Modified version of Zoo dataset which contains 73 exemplars (animals) with up to 18 boolean features. Dataset was extended by human typicality ratings for each exemplar in given category.
 
+This dataset was used in:
+
+> Belohlavek, R., Mikula, T.: Typicality: a formal concept analysis account (2021 - preprint).
+
 ## Exemplars
 Each exemplar is member of one of the class (bird, fish, mammal).
 
@@ -11,7 +15,7 @@ Each exemplar is member of one of the class (bird, fish, mammal).
 | *mammal*     | 40            | ```aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf``` |
 
 ## Features
-Each exemplar is defined by set of boolean features, category and it's name.
+Each exemplar is defined by set of boolean features, category and it's name, avaliable in `data/features.csv` file.
 
 | Type         | Features    |
 |:------------:|:----------- |
@@ -21,15 +25,13 @@ Each exemplar is defined by set of boolean features, category and it's name.
 ## Typicality
 For each exemplar (in given category) typicality rating was obtained. Each exemplar was assessed by up to 242 respondents (136 were women, 106 were men). Typicality ratings calcualted as mean value of given responses are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
 
-## Original data
-https://archive.ics.uci.edu/ml/datasets/zoo
+## Reference
+Original dataset: https://archive.ics.uci.edu/ml/datasets/zoo
 
-```
-Dua, D., Graff, C.: UCI Machine Learning Repository. University of California, Irvine, School of Information and Computer Sciences (2019). http://archive. ics.uci.edu/ml
-```
+> Dua, D., Graff, C.: UCI Machine Learning Repository. University of California, Irvine, School of Information and Computer Sciences (2019). http://archive. ics.uci.edu/ml
 
-## Modifications to the original data
+### Modifications to the original data
 * Exemplar `girl` was removed.
-* Original numeric `legs` feature was converted into multiple bool features (`no legs`, `two legs`, `four legs`).
-* Original `type` feature was renamed to `category`.
+* Original numeric `legs` feature was converted to multiple boolean features (`no legs`, `two legs`, `four legs`).
+* Original `type` feature was renamed as `category`.
 * Because typicality ratings were gathered only for `bird`, `fish` and `mammal` category, other categories were removed.
