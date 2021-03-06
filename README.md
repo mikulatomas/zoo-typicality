@@ -6,7 +6,7 @@ This dataset was used in:
 > Belohlavek, R., Mikula, T.: Typicality: a formal concept analysis account (2021 - preprint).
 
 ## Exemplars
-Each exemplar is member of one of the class (bird, fish, mammal).
+Each exemplar is member of one of the category (bird, fish and mammal).
 
 | Category        | Count         | Exemplars  |
 |:------------:|:-------------:|:---------- |
@@ -15,7 +15,7 @@ Each exemplar is member of one of the class (bird, fish, mammal).
 | *mammal*     | 40            | ```aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf``` |
 
 ## Features
-Each exemplar is defined by set of boolean features, category and it's name, avaliable in `data/features.csv` file.
+Each exemplar is defined by set of boolean features, category and it's name. Exemplar by feature matrix is avaliable in `data/features.csv` file.
 
 | Type         | Features    |
 |:------------:|:----------- |
@@ -23,9 +23,9 @@ Each exemplar is defined by set of boolean features, category and it's name, ava
 | str          | ```exemplar, category``` |
 
 ## Typicality
-For each exemplar (in given category) typicality rating was obtained. Each exemplar was assessed by up to 242 respondents (136 were women, 106 were men). 
+Mean typicality ratings for each exemplar are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from the participants.
 
-Typicality ratings calcualted as mean value of given responses are avaliable in `data/typicality ratings/` folder. The `original_responses.csv` file includes unprocessed responses from participants.
+Each exemplar was assessed by up to 242 respondents (136 were women, 106 were men).
 
 ## Reference
 Original dataset: https://archive.ics.uci.edu/ml/datasets/zoo
