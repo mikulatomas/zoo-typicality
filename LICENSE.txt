@@ -1,4 +1,4 @@
-Zoo typicality dataset is available under Creative Commons BY-NC-SA 4.0 license.
+Human typicality ratings for Zoo dataset are available under Creative Commons BY-NC-SA 4.0 license.
 
 You can use, redistribute, and adapt it for non-commercial purposes, 
 as long as you (a) give appropriate credit by citing our paper, 
@@ -6,21 +6,17 @@ as long as you (a) give appropriate credit by citing our paper,
 (c) distribute any derivative works under the same license.
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
-
--------
-
-Zoo typicality dataset is based on Zoo dataset (see below). 
+ 
 Typicality ratings were obtained by questionnaire which was 
 created by Radim Belohlavek and Tomas Mikula.
 
-Dataset was originaly used in paper:
+Dataset was originally used in paper:
 Belohlavek, R., Mikula, T.: Typicality: a formal concept analysis account (2021 - preprint).
 
 ------
 
-Original Zoo dataset
-License of the original Zoo dataset avaliable on 
-https://archive.ics.uci.edu/ml/datasets/zoo is unknown.
+Features are based on original Zoo dataset which license is unknown. Original Zoo dataset 
+available on https://archive.ics.uci.edu/ml/datasets/zoo.
 
 Original Creator: 
 Richard Forsyth 
