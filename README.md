@@ -22,9 +22,9 @@ Bird, fish, mammal (type 1, 2, 4 in Zoo dataset) categories were selected for as
 | mammal     | 40            | ```aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf``` |
 
 ## Typicality ratings
-Each exemplar from these categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men).
+Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Respondents were allowed to skip unknown exemplars, so not all of the exemplars were assesed by all 242 respondents.
 
-Mean typicality ratings for each exemplar per category are avaliable in `data/typicality ratings/` folder. Alongside mean value, sample standard deviation and number of nonmissing human assesment was calculated. The `original_responses.csv` file includes unprocessed responses from participants.
+Mean typicality ratings for each exemplar are avaliable in `data/typicality ratings/` folder. Alongside mean value, sample standard deviation (std) and number of nonmissing human assesment (nonmissing) was calculated. The `original_responses.csv` file includes unprocessed responses from participants.
 
 ## Features
 For convenient experiments, subset of original Zoo dataset is available as attachment to this dataset in `data/features/mini_zoo.csv`.
