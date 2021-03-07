@@ -31,7 +31,7 @@ Each exemplar from selected categories was assessed on scale 1 (least typical) t
 
 The `original_responses.csv` file includes unprocessed responses from participants.
 
-## Features
+## Attachments
 For convenient experiments, subset of original Zoo dataset is available as attachment to this dataset in `data/features/mini_zoo.csv`.
 
 | Type         | Features    |
