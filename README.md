@@ -1,7 +1,7 @@
 # Human typicality ratings for the Zoo dataset
 This repository provides human typicality ratings for each exemplar from three categories (bird, fish, mammal) based on the original Zoo dataset (see below).
 
-<img src="https://github.com/mikulatomas/zoo-typicality/raw/only-typicality/logo.png" width=500>
+<img src="https://github.com/mikulatomas/zoo-typicality/raw/pre-publish/logo.png" width=500>
 
 Human typicality ratings were used in:
 
