@@ -28,9 +28,3 @@ Mean typicality ratings are avaliable in `data/typicality ratings/` folder. The 
 
 ## Reference
 > [1] Dua, D., Graff, C.: UCI Machine Learning Repository. University of California, Irvine, School of Information and Computer Sciences (2019). http://archive. ics.uci.edu/ml
-
-### Modifications to the original data
-* Exemplar `girl` was removed.
-* Original numeric `legs` feature was converted to multiple boolean features (`no legs`, `two legs`, `four legs`).
-* Original `type` feature was renamed as `category`.
-* Because typicality ratings were gathered only for `bird`, `fish` and `mammal` category, other categories were removed.
