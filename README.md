@@ -29,6 +29,8 @@ Respondents were native Czech and Slovak speakers. Each exemplar was translated 
 
 Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Participants were able to see all exemplars from given category at once and were allowed to skip unknown exemplars, so not all of the exemplars were assessed by all 242 respondents. Median, minimum and maximum age of participants was 23, 17 and 81.
 
+<img src="https://github.com/mikulatomas/zoo-typicality/raw/pre-publish/graphs.png">
+
 The `original_responses.csv` file includes unprocessed responses from participants.
 
 ## Attachments
