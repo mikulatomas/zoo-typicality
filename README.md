@@ -27,7 +27,7 @@ Mean typicality ratings for each exemplar are available in `data/typicality rati
 ### Description of the experiment
 Respondents were native Czech and Slovak speakers. Each exemplar was translated to Czech language according to `exemplar_translation.py` file.
 
-Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Respondents were able to see all exemplars from given category at once and were allowed to skip unknown exemplars, so not all of the exemplars were assessed by all 242 respondents.
+Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Participants were able to see all exemplars from given category at once and were allowed to skip unknown exemplars, so not all of the exemplars were assessed by all 242 respondents. Median, minimum and maximum age of participants was 23, 17 and 81.
 
 The `original_responses.csv` file includes unprocessed responses from participants.
 
