@@ -13,7 +13,7 @@ Original Zoo dataset [1] consists of 101 animals and 17 features. Each animal is
 Dataset can be downloaded here: https://archive.ics.uci.edu/ml/datasets/zoo.
 
 ## Selected categories
-Bird, fish, mammal (type 1, 2, 4 in Zoo dataset) categories were selected for assesing typicality ratings. All exemplars for each category are listed in following table. Note that `girl` exemplar was omitted.
+Bird, fish, mammal (type 1, 2, 4 in Zoo dataset) categories were selected for assessing typicality ratings. All exemplars for each category are listed in following table. Note that `girl` exemplar was omitted.
 
 | Category        | Count         | Exemplars  |
 |:------------:|:-------------:|:---------- |
@@ -22,9 +22,9 @@ Bird, fish, mammal (type 1, 2, 4 in Zoo dataset) categories were selected for as
 | mammal     | 40            | ```aardvark, antelope, bear, boar, buffalo, calf, cavy, cheetah, deer, dolphin, elephant, fruitbat, giraffe, goat, gorilla, hamster, hare, leopard, lion, lynx, mink, mole, mongoose, opossum, oryx, platypus, polecat, pony, porpoise, puma, pussycat, raccoon, reindeer, seal, sealion, squirrel, vampire, vole, wallaby, wolf``` |
 
 ## Typicality ratings
-Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Respondents were allowed to skip unknown exemplars, so not all of the exemplars were assesed by all 242 respondents.
+Each exemplar from selected categories was assessed on scale 1 (least typical) to 5 (most typical) by up to 242 respondents (136 were women, 106 were men). Respondents were allowed to skip unknown exemplars, so not all of the exemplars were assessed by all 242 respondents.
 
-Mean typicality ratings for each exemplar are avaliable in `data/typicality ratings/` folder. Alongside mean value, sample standard deviation (std) and number of nonmissing human assesment (nonmissing) was calculated. The `original_responses.csv` file includes unprocessed responses from participants.
+Mean typicality ratings for each exemplar are available in `data/typicality ratings/` folder. Alongside mean value, sample standard deviation (std) and number of non-missing human assessment (nonmissing) was calculated. The `original_responses.csv` file includes unprocessed responses from participants.
 
 ## Features
 For convenient experiments, subset of original Zoo dataset is available as attachment to this dataset in `data/features/mini_zoo.csv`.
@@ -37,8 +37,8 @@ For convenient experiments, subset of original Zoo dataset is available as attac
 List of modifications to the original Zoo dataset:
 * Original numeric `legs` feature was converted to multiple boolean features (`no legs`, `two legs`, `four legs`).
 * As mentioned, girl exemplar was removed.
-* Original `animal name` feature was renamed to `exemplar`.
-* Original `type` feature was renamed to `category` and original numeric values (1, 2, 4) are transformed to strings (bird, fish, mammal).
+* Original `animal name` feature was renamed as `exemplar`.
+* Original `type` feature was renamed as `category` and original numeric values (1, 2, 4) are transformed to strings (bird, fish, mammal).
 * Exemplars from other categories are removed.
 
 ## References
