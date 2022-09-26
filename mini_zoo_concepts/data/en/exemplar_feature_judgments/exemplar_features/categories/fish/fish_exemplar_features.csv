@@ -1,0 +1,14 @@
+,eggs,aquatic,predator,toothed,backbone,venomous,fins,tail,domestic,catsize,no legs
+bass,1,1,1,1,1,0,1,1,0,0,1
+carp,1,1,0,1,1,0,1,1,1,0,1
+catfish,1,1,1,1,1,0,1,1,0,0,1
+chub,1,1,1,1,1,0,1,1,0,0,1
+dogfish,1,1,1,1,1,0,1,1,0,1,1
+haddock,1,1,0,1,1,0,1,1,0,0,1
+herring,1,1,1,1,1,0,1,1,0,0,1
+pike,1,1,1,1,1,0,1,1,0,1,1
+piranha,1,1,1,1,1,0,1,1,0,0,1
+seahorse,1,1,0,1,1,0,1,1,0,0,1
+sole,1,1,0,1,1,0,1,1,0,0,1
+stingray,1,1,1,1,1,1,1,1,0,1,1
+tuna,1,1,1,1,1,0,1,1,0,1,1
