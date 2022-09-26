@@ -80,4 +80,6 @@ for concept in concepts:
     typicality_df["mean"] = concept_df.mean()
     typicality_df["nonmissing"] = nonmissing
 
-    typicality_df.to_csv(pathlib.Path("processed") / f"{concept}_typicality_ratings.csv")
+    typicality_df.to_csv(
+        pathlib.Path("processed") / f"{concept}_typicality_ratings.csv"
+    )
