@@ -15,6 +15,4 @@ setup(
         "pandas",
     ],
     classifiers=["Development Status :: 1 - Planning"],
-    include_package_data=True,
-    package_data={"": ["data/*.csv"]},
 )
